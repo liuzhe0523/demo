@@ -1,0 +1,288 @@
+/* 
+   .nav .first li注意first前的点不可以去掉，如果不写按标签处理没有first标签此句话无意义
+   .nav #first li
+*/
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color:rgb(243,243,243);
+}
+ul,li，ol{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+	height: 173px;
+	background-color:#efeff0;
+}
+.logo{
+	text-align:center;
+	height:125px;
+}
+.logo img{
+	margin-top:30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin:0 auto;
+	border-radius: 23px
+}
+.nav li{
+	float:left;
+	height:45px;
+	padding:0 30px;
+	line-height:45px;
+	background:url(./image/line.gif) no-repeat right 13px/*center*/;
+	font-size:14px;
+}
+.nav li a{
+	display:block;
+	height:42px;
+	border-bottom:3px solid #1e50ae;
+}
+.nav li:last-child{
+	background:none;
+}
+/*header结束*/
+/*banner的开始*/
+.banner{
+	height: 405px;
+	width: 100%;
+	background:url(./image/banner.gif) no-repeat right center;
+}
+/*banner的结束*/
+/*serve的开始*/
+.serve{
+	width: 1200px;
+	height: 811px;
+	margin:0 auto;/*背景图片居中*/
+}
+/*如果给最顶上的子元素设置margin-top父元素掉下则需要给父元素加上overflow：hidden*/
+.font1{
+	padding-top:45px;
+	font-size:34px;
+	text-align:center;/*文字居中*/
+}
+.font2{
+	padding-top:20px;
+	font-size:31.45px;
+	font-family:Aparajita;
+	text-align:center;
+}
+.listtop{
+	width: 1200px;
+	height: 365px;
+	
+}
+.listtop>li{
+	width: 300px;
+	height: 367px;
+	float:left;
+}
+.listtop>li img{
+	margin-top: 0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.listbottom>li{
+	width:300px;
+	float:left;
+}
+.listbottom>li img{
+	margin-top: 0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.font3{
+	font-size:16px;
+	text-align:center;
+	margin-top:17px;
+}
+.three li{
+	background:url(./image/dian.png) no-repeat 0px center;
+	margin-left:121px;
+	/*text-indent:121px;文本缩进*/
+}
+.three li p{
+	margin-left:16px;
+	font-size:14px;
+	color:#a1a1a1;
+}
+.content{
+	height:711px;
+	background:url(./image/beijing.png) no-repeat center center;
+}
+.font4{
+	font-size:34px;
+	text-align:center;
+	padding-top:61px;
+	color:#fff;
+}
+.font5{
+	padding-top:24px;
+	font-size:31.45px;
+	font-family:Aparajita;
+	text-align:center;
+	color:#fff;
+}
+.content ul{
+	padding-top:73px;
+	width: 1200px;
+	height:563px;
+	margin:0 auto;
+
+}
+.content ul li{
+	float:left;
+	padding-right:50px;
+	padding-bottom:65px;
+}
+.content ul li:first-child{
+	padding-top:145px;
+	padding-right:28px;
+}
+.content ul div:last-child{
+	text-align:center;
+}
+.content2{
+	height:1010px;
+	background-color:#fff;
+}
+.size{
+	width: 1200px;
+	height:300px;
+	margin:0 auto;
+}
+.size>img{
+	padding-top:83px;
+	padding-left:65px;
+	float:left;
+}
+.font6{
+	padding-top:83px;
+	font-size:22px;
+
+}
+.font7{
+	padding-top:22px;
+	font-size:18px;
+}
+.font8{
+	padding-top:35px;
+	font-size:14px;
+	color:#a6a6a6;
+	padding-right:70px;
+}
+.two{
+	margin-top:36px;
+	margin-bottom:100px;
+}
+.font9{
+	font-size:14px;
+	color:#a6a6a6;
+	margin-right:40px;
+	
+}
+.font9 li{
+	line-height:40px;
+	width: 490px;
+	border-bottom:1px dotted #a6a6a6;
+}
+.nav2{
+	display:block;
+	width:2000px;
+	height: 100px;
+	background-color:#f5f5f5;
+	margin-top:470px;
+}
+.nav2 ul{
+	margin-left:38px;
+}
+.nav2 ul li{
+	float:left;
+	padding-right:30px;
+	margin-right:30px;
+	margin-top:20px;
+	padding-right:50px;
+	border-right:1px solid #fff;
+}
+.nav2 ul li:last-child{
+	border-right:none;
+}
+.nav2 ul li img{
+	float:left;
+}
+.a{
+	margin-left:68px;
+	font-size:19px;
+}
+.b{
+	margin-left:68px;
+	font-size:13px;
+}
+/*nav结束*/
+/*last的开始*/
+.last{
+	height: 500px;
+	background-color:#323232;
+}
+.last ul{
+	float:left;
+	color:#fff;
+	margin-top:64px;
+}
+.en1{
+	margin-left:185px;
+}
+.en2{
+	padding-left:112px;
+}
+.en3{
+	font-size:18px;
+	padding-bottom:7px;
+}
+.en4{
+	font-size:14px;
+	padding-bottom:20px;
+}
+.font10{
+	float:right;
+	color:#fff;
+	font-size:18px;
+	width: 30px;
+	line-height:25px;
+	height: 125px;
+	border-right:1px solid #fff;
+	margin-right:360px;
+	margin-top:10px;
+}
+.font11{
+	color:#fff;
+	float:right;
+	margin-top:-120px;
+	margin-right:174px;
+}
+.line{
+	border-bottom:1px solid red;
+	padding-bottom:200px;
+}
+.font12{
+	margin-left:250px;
+	margin-bottom:67px;
+}
+.font12 li{
+	float:left;
+	margin-right:30px;
+	padding-right:30px;
+	border-right:1px solid #fff;
+}
+/*last结束*/
